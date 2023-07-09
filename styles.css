@@ -197,7 +197,7 @@ main {
     line-height: 50.346px;
 }
 
-.works__title_green {
+.works__title-green {
     color: #75BF7A;
     font-size: 46.386px;
     font-style: normal;
@@ -285,4 +285,120 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.benefits__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.benefits__item {
+    width: calc(1060px - 38px - 38px);
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    justify-content: space-between;
+    padding: 25px 38px;
+    border-radius: 10px;
+}
+
+#benefits_item1 {
+    margin-left: 80px;
+}
+
+#benefits_item3 {
+    margin-left: 80px;
+}
+
+.benefits__title {
+    color: #000;
+    font-size: 46.386px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50.346px;
+    margin-bottom: 52px;
+}
+
+.benefits__title-green {
+    color: #75BF7A;
+}
+
+.benefits__item-titles {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.benefits__item-number {
+    color: #75BF7A;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.8px;
+}
+
+.benefits__item-title {
+    color: #000;
+    font-size: 33.943px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.5px;
+    max-width: 218px;
+}
+
+.benefits__item-subtitle {
+    color: #9E9DA2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    max-width: 385px;
+}
+
+.footer {
+    background-color: #FFF;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__content {
+    display: flex;
+    max-width: calc(1440px - 160px);
+    margin: 0;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    margin: 70px 0 38px;
+}
+
+.footer__cart-subtitle {
+    margin-top: 20px;
+    color: #8B8BA5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer__downtext {
+    margin-bottom: 160px;  
+    color: #75BF7A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
