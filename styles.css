@@ -5,14 +5,15 @@ main {
     align-items: center;
     font-family: Gilroy;
     padding: 0 80px;
+    background-color: #F9F9F9;
 }
 
 .header {
     width: 100%;
-    padding: 86px 0 36px;
+    padding: 86px 80px 36px;
     display: flex;
     justify-content: center;
-    margin: 0 80px;
+    background-color: #FFF;
 }
 
 .header__container {
@@ -55,3 +56,233 @@ main {
     border: none;
 }
 
+.download {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 86px;
+}
+
+.download__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 557px;
+}
+
+.download__title {
+    font-size: 60.726px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 66px;
+    margin: 0;
+}
+
+.download__subtitle {
+    color: #9E9DA2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 27px 0 62px;
+}
+
+.download__container-img {
+    margin-top: 55px;
+}
+
+.download__img {
+    width: 553px;
+    height: 582px;
+}
+
+.download__links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #000;
+    padding: 12px 56px;
+    color: #FFF;
+}
+
+.search {
+    background-color: #75BF7A;
+    width: 100%;
+    margin-bottom: 126px;
+    border-radius: 10px;
+}
+
+.search__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+}
+
+.search__title {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    max-width: 246px;
+    margin: 0;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search__input {
+    width: 499px;
+    height: 67px;
+    border-radius: 4px;
+    background: #FFF;
+    border: none;
+    padding: 0;
+}
+
+.search__input::placeholder {
+    color: #DADADA;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px;
+    padding-left: 35px;
+}
+
+.search__btn {
+    border-radius: 4px;
+    background: #000;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0px;
+    padding: 33.5px 56px;
+    border: none;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 88px;
+}
+
+.works__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works__title {
+    color: #000;
+    font-size: 46.386px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50.346px;
+}
+
+.works__title_green {
+    color: #75BF7A;
+    font-size: 46.386px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50.346px; 
+}
+
+.works__subtitle {
+    color: #9E9DA2;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 620px;
+    text-align: center;
+    margin: 25px 0 65px;
+}
+
+.works__list {
+    display: grid;
+    gap: 40px;
+    grid-template-areas: 
+    "item1 item5 item3"
+    "item2 item5 item4"
+    ;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.works__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.works__item-img {
+    width: 60px;
+    height: 60px;
+}
+
+#item1 {
+    grid-area: item1;
+    align-items: end;
+    text-align: end;
+}
+
+#item2 {
+    grid-area: item2;
+    align-items: end;
+    text-align: end;
+}
+
+#item3 {
+    grid-area: item3;
+    align-items: start;
+}
+
+#item4 {
+    grid-area: item4;
+    align-items: start;
+}
+
+#item5 {
+    grid-area: item5;
+}
+
+.works__img {
+    width: 400px;
+    height: 560px;
+}
+
+.works__item-title {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.works__item-subtitle {
+    max-width: 290px;
+    margin: 0;
+    color: #9E9DA2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
