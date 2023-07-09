@@ -1,5 +1,57 @@
+main {
+    width: calc(1440px - 160px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Gilroy;
+    padding: 0 80px;
+}
 
+.header {
+    width: 100%;
+    padding: 86px 0 36px;
+    display: flex;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 46px;
+}
+
+.header__menu-links {
+    display: flex;
+    gap: 46px;
+}
+
+.header__menu-link {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
 
 .header__menu-btn {
-    font-family: Gilroy;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    background-color: #75BF7A;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
 }
+
