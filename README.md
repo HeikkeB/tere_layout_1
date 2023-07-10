@@ -1,3 +1,1 @@
-#site
-
-![TERE APP](https://tere-layout-1.vercel.app/)
+Click [HERE](https://tere-layout-1.vercel.app/) to go to TERE site.
