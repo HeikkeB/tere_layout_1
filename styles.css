@@ -97,14 +97,14 @@ main {
     height: 582px;
 }
 
-.download__links {
+.links__download {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.download__link {
+.link__btn {
     display: flex;
     align-items: center;
     justify-content: center;
